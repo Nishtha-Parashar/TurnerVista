@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+    <head>
+        <title>
+        Turner Vista
+        </title>
+    <style>
+        #top {
+            height:20px;
+            background-color:grey;
+            color: white;
+            padding: 8px;
+        }
+           #logout_button{
+               background-color: white;
+               text-align: center;
+               width: 60px;
+               padding: 8px;
+               float: right;
+               margin-top: 10px;
+        }
+        #Post{ background-color: #e9ebee;
+        height:700px;
+        width: 650px;
+        margin:auto; 
+        margin-top:80px;
+        text-align:center;
+        padding: 25px;
+        font-weight: bold; 
+        }
+        #button{ 
+            background-color:rgb(86, 79, 209) ;
+            text-align: center;
+            height:40px;
+            width: 300px;
+            font-weight: bold;
+            color: white;
+            border-radius:4px;
+            border: solid, 1px, bold;
+            font-size: 18px;
+        }
+        #menu { background-color:black;
+               text-align: center;
+               width:80px;
+               color: black;
+               padding :10px;
+               margin-top: 10px;
+               border-radius:5px;
+         }
+         #Post_box{
+         height:300px;
+         width: 400px;
+         }
+         #caption{
+             height:100px;
+             width: 400px;
+             font-size: 15px;
+             text-align: center;
+         }
+         #text{
+             height: 30px;
+             width: 80px;
+         }
+    </style>
+    <body style= "font-family: Arial ; background-color:rgb(158, 154, 233);">
+          <div id= "top">
+        <div style= "font-size:20px;">
+        Turner Vista &nbsp &nbsp<br>
+       <img src="../TV_Logo.png" height="70px"width="70px" >
+        </div>
+        <div id= "logout_button">
+            <a href = " ">    Log out </a>
+        </div>
+        <div id="menu"> 
+            Menu<br>
+            <select id = "text" >
+                <option>
+                Profile
+                </option>
+                <option>
+                Settings
+                </option>
+                <option>
+                Logout
+                </option>
+            </select>
+        </div>
+        </div>
+        <div id= "Post">
+            User Page<br><br>
+            <input type =" " id = "Post_box"><br><br>
+            <input type ="  " id = "caption" placeholder = "Caption for the post"><br><br>
+            <input type = "submit" id = "button" value ="Post">
+        </div>
+    </body>
+<li><a href=" ">About Us</a></li>
+        <li><a href=" ">Contact Us</a></li>
+    </head>
+</html>
