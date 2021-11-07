@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding:5px;
+    font-family: -apple-system, BlinkMacSystemFont, "San Francisco", Helvetica, Arial, sans-serif;
+  
+}
+/* .container {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+} */
+.container {
+  /* position: center;
+  height: 300px;
+  width: 400px;
+  margin: 0 auto 100px;
+  padding: 60px; */
+  /* margin-top: 120px; */
+  background:linear-gradient(to right bottom, rgba(255,255,255,0.7),rgba(255,255,255,0.3));
+  min-height:60vh;
+  width:450px;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+
+} 
+  .email {
+    border: none;
+    width: 70%;
+    padding: 10px 20px;
+    display: block;
+    height: 25px;
+    border-radius: 20px;
+    background:linear-gradient(to right bottom, rgba(255,255,255,0.7),rgba(255,255,255,0.3));
+    margin-top: 15px;
+    margin-left: 40px;
+  }
+
+  .password {
+    border: none;
+    width: 70%;
+    padding: 10px 20px;
+    display: block;
+    height: 25px;
+    border-radius: 20px;
+    background:linear-gradient(to right bottom, rgba(255,255,255,0.7),rgba(255,255,255,0.3));
+    margin-top: 15px;
+    margin-left: 40px;
+  }
+  
+  /* .password:focus {
+    outline: 0;
+    border: 2px solid rgba(255, 255, 255, 0.61);
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0);
+  }
+  
+  .password:focus + span {
+    opacity: 0.6;
+  } */
+ 
+  
+  .button {
+    background: #1097b9;
+    width: 60%;
+    padding: 10px 20px;
+    display: block;
+    height: 45px;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-left: 85px;
+    transition: all 0.5s ease-in-out;
+    border: none;
+    text-transform: uppercase;
+  }
+  
+  .button:hover {
+    background: #4d78ee;
+    box-shadow: 0px 4px 35px -5px #311fd3;
+    cursor: pointer;
+  }
+  
+  .button:focus {
+    outline: none;
+  }
+  
+  body{
+    min-height: 100vh;
+    background: linear-gradient(to right top, #7dc1ca, #1097b9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  p{
+    padding: 30px;
+  }
+  img{
+    border: black;
+    border-width: 3px;
+  }
+  
+/* .logo img {
+  border-radius: 50%;
+  position: relative;
+  top: 0;
+  left:0;
+  margin-top: -12px;
+  border: 3px;
+  border-color:black ;
+  
+}
+.logo{
+  
+  position:fixed;
+  top: 0;
+  left:0;
+  width:100%;
+  display:flex;
+  height:10%;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.logo li{
+  list-style:none;
+  margin-right: -10px;
+  padding: 20px 20px;
+  
+}
+logo li a{
+  color:white;
+  text-decoration: none;
+
+} */
+
+  
+ 
+  
