@@ -124,23 +124,35 @@ padding-top: 20px;
     outline: 0;
     border-bottom: 1px solid#ccc;
     background: transparent;
+    
+    
+}
+.postbtn{
+    height: 34px;
+    width: 100px;
+    margin-left: 900px;
+    margin-top: 40px;
+    border-radius: 20px;
+    background-color: rgb(180, 83, 236);
+    border: none;
 }
 .post{
     width:100%;
     background: rgb(240, 237, 237);
     border-radius: 6px;
     padding: 20px;
+    
 }
 .ImagePost{
-    width:100%;
+    width:90%;
     background: rgb(240, 237, 237);
     border-radius: 6px;
     padding: 20px;
-    height:500px;
+    height:400px;
     margin-top: 30px;
 }
 .ImagePost img{
     width: 100%;
-    height: 100%;
+    height: 90%;
 }
 
