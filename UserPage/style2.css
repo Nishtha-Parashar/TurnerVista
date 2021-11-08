@@ -1,0 +1,55 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+.logo{
+    height: 100px;
+    width:100px;
+    border: cornsilk;
+    padding: 0 30px;
+}
+.heading{
+    background-color:blueviolet ;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+.SearchBox{
+    justify-content: center;
+    background: white;
+    width:450px;
+    height:40px;
+    border-radius: 20px;
+    align-items: center;
+    display: flex;
+    margin-left: 200px;
+
+}
+.SearchBox input{
+    width: 100%;
+    background: transparent;
+    outline:none;
+    padding: 10px;
+    border:0;
+
+}
+/* .searchbox{
+    height: 20px;
+    width:400px;
+    border-radius: 20px;
+    border:none;
+    justify-content: center;
+    padding: 10px;
+
+
+} */
+h1{
+    font-family: Times New Roman (serif);
+}
+.message{
+
+    position: relative;
+   
+padding:0 50px;
+
+}
