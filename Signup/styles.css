@@ -66,7 +66,7 @@
  
   
   .button {
-    background: #1097b9;
+    background: #4fbeda;
     width: 60%;
     padding: 10px 20px;
     display: block;
@@ -91,7 +91,7 @@
   
   body{
     min-height: 100vh;
-    background: linear-gradient(to right top, #7dc1ca, #1097b9);
+    background: linear-gradient(to right top, #80c5ce, #55ceec);
     display: flex;
     align-items: center;
     justify-content: center;
