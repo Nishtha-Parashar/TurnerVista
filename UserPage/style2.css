@@ -68,21 +68,23 @@ right: -250px;
 .container{
     display: flex;
     justify-content: space-between;
-    padding:20px 3%;
+    padding:15px 3%;
+    background:whitesmoke;
 }
 .leftSide{
     position: absolute;
-    flex-basis: 7%;
+    flex-basis: 5%;
     position: sticky;
     align-self: flex-start;
     top:70px;
     background: rgb(214, 181, 248);
     height: 100vh;
     padding:20px;
+    align-items: center;
 }
 .righttSide{
     position: fixed;
-    flex-basis: 12%;
+    flex-basis: 15%;
     position: sticky;
     align-self: flex-start;
     top:70px;
@@ -97,6 +99,7 @@ right: -250px;
 .home{
     align-items: center;
     top: 25px;
+    
 }
 .friend{
     align-items: center;
@@ -132,22 +135,22 @@ padding-top: 20px;
 .postbtn{
     height: 34px;
     width: 100px;
-    margin-left: 900px;
+    margin-left: 700px;
     margin-top: 40px;
     border-radius: 20px;
     background-color: rgb(180, 83, 236);
     border: none;
 }
 .post{
-    width:100%;
-    background: rgb(240, 237, 237);
+    width:95%;
+    background: rgb(255, 255, 255);
     border-radius: 6px;
     padding: 20px;
     
 }
 .ImagePost{
-    width:100%;
-    background: rgb(240, 237, 237);
+    width:95%;
+    background: rgb(255, 255, 255);
     border-radius: 6px;
     padding: 20px;
     height:500px;
@@ -159,11 +162,11 @@ padding-top: 20px;
 }
 .like{
     padding: 0 20px;
-    background-color:rgb(240, 237, 237) ;
-    width: 100%;
+    background-color:rgb(255, 255, 255) ;
+    width: 95%;
 }
 .like img{
-    padding: 5px 130px;
+    padding: 5px 100px;
 }
 p{
     padding: 20px;
