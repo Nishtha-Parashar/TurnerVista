@@ -1,6 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .logo {
@@ -79,7 +80,7 @@ h1 {
 
 .leftSide {
     position: absolute;
-    flex-basis: 5%;
+    flex-basis: 12%;
     position: sticky;
     align-self: flex-start;
     top: 70px;
@@ -87,11 +88,12 @@ h1 {
     height: 100vh;
     padding: 20px;
     align-items: center;
+    justify-content: center;
 }
 
 .righttSide {
     position: fixed;
-    flex-basis: 15%;
+    flex-basis: 17%;
     position: sticky;
     align-self: flex-start;
     top: 70px;
@@ -106,26 +108,27 @@ h1 {
 
 .home {
     align-items: center;
-    top: 25px;
+    top: 10%;
+
 }
 
 .friend {
     align-items: center;
-    margin-top: 70px;
+    margin-top: 40%;
 }
 
 .profile {
     align-items: center;
-    margin-top: 75px;
+    margin-top: 50%;
 }
 
 .logout {
     border-radius: 20px;
     height: 50px;
-    width: 80px;
+    width: 50%;
     background-color: rgb(180, 83, 236);
     border: none;
-    margin-top: 70px;
+    margin-top: 70%;
     text-decoration-color: azure;
     box-shadow:0px 4px 20px -5px black;
 }
