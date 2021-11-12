@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/bootstrap-grid.css">
+    <link rel="stylesheet" href="../css/bootstrap-utilities.css">
     <link rel="stylesheet" href="../css/login.css">
     <title>Login Page</title>
     <!-- <div class="logo">
@@ -16,28 +19,39 @@
 </head>
 
 <body>
-    <main>
+    <main class="form-signin">
         <form>
+            <div class=" container ">
+                <br/>
+                <img class="mb-4" src="../TV_Logo.png " height="100px " width="100px ">
 
-            <div class="container">
-                <div class="logo" position:fixed; top:0; left:0;><br/>
-                    <img src="../TV_Logo.png" height="70px" width="70px">
+                <h1 class="h3 mb-3 fw-normal" style=" color:#111d86e5 " ; ">Login</h1><br/>
+
+                <div class="form-floating ">
+
+                    <input type=email class="form-control " id="floatingInput " placeholder="Username or Email ">
+                    <label for="floatingInput ">Username or Email</label>
+                <div class = "form form-floating ">
+                    <input type=password class="form-control " id="floatingPassword " placeholder="Password ">
+                    <label for="floatingPassword ">Password</label>
                 </div>
-                <h1 style="color:#111d86e5" ; ">Login</h1>
-        
-        <div class="inputbox ">
-            
-                <input type="email " class="email " placeholder="Username or Email ">
-            
-                <input type="password " class="password " placeholder="Password ">
-            
-        </div>
-       
-            <button type="submit " class="button " >Log In</button><br/>
-            <h4>Don't have an account?</h4><a href="../Signup/signup.html " id="signup ">Sign up</a> <br/><br/>
-       
-    </div>
-</form>
-</main>
+
+                <div class="checkbox mb-3 ">
+                    <label>
+                      <input type=checkbox value="remember-me "> Remember me
+                    </label>
+            </div>
+
+            </div>
+            <button type="submit " class="w-100 btn btn-lg btn-primary ">Log In</button><br/><br/>
+            <h4>Don't have an account?</h4><br/><a href="../Signup/signup.html " class="btn " id="signup ">Sign up</a> <br/><br/>
+
+            </div>
+        </form>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js " integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin=" anonymous "></script>
+    <script src="../js/bootstrap.min.js "></script>
+
 </body>
+
 </html>
