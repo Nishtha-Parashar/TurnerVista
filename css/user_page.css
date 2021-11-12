@@ -70,6 +70,11 @@ h1 {
     align-items: center;
     right: -310px;
 }
+.logout {
+    position: relative;
+    align-items: center;
+    right: -350px;
+}
 
 .container {
     display: flex;
@@ -118,10 +123,10 @@ h1 {
 
 .profile {
     align-items: center;
-    margin-top: 50%;
+    margin-top: 45%;
 }
 
-.logout {
+/* .logout {
     border-radius: 20px;
     height: 50px;
     width: 50%;
@@ -134,7 +139,7 @@ h1 {
 
 .logout:hover{
     cursor: pointer;
-}
+} */
 
 
 /* .post-Container{
@@ -233,6 +238,10 @@ p {
 
 .profile:hover {
     box-shadow: 0px 4px 35px -5px #9a09dd;
+    cursor: pointer;
+}
+.logout:hover {
+    box-shadow: 0px 4px 35px -5px #e2aede;
     cursor: pointer;
 }
 
