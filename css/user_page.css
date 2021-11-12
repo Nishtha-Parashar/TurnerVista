@@ -56,19 +56,19 @@ h1 {
 .message {
     position: relative;
     align-items: center;
-    right: -400px;
+    right: -300px;
 }
 
 .not {
     position: relative;
     align-items: center;
-    right: -250px;
+    right: -175px;
 }
 
 .set {
     position: relative;
     align-items: center;
-    right: -430px;
+    right: -310px;
 }
 
 .container {
@@ -132,6 +132,10 @@ h1 {
     box-shadow: 0px 4px 20px -5px black;
 }
 
+.logout:hover{
+    cursor: pointer;
+}
+
 
 /* .post-Container{
 padding-left: 55px;
@@ -155,6 +159,10 @@ padding-top: 20px;
     background-color: rgb(180, 83, 236);
     border: none;
     box-shadow: 0px 4px 20px -5px black;
+}
+
+.postbtn:hover{
+    cursor: pointer;
 }
 
 .post {
