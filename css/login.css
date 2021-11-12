@@ -122,6 +122,7 @@ p {
 img {
     border: black;
     border-width: 3px;
+    border-radius: 35px;
 }
 
 h4 {
