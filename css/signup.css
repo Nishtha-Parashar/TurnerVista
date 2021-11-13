@@ -4,6 +4,18 @@
     src: url(../Fonts/NeueHaasDisplayLight.ttf), url(../Fonts/NeueHaasDisplayMedium.ttf), url(../Fonts/NeueHaasDisplayBold.ttf);
 }
 
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
 
 /* {
     margin: 0;
@@ -106,10 +118,14 @@
 
 body {
     min-height: 100vh;
-    background: linear-gradient(to right top, #80c5ce, #55ceec);
+    /* background: linear-gradient(to right top, #80c5ce, #55ceec); */
     display: flex;
     align-items: center;
     justify-content: center;
+    background: linear-gradient(45deg, #F0FFFF, #FFFFF0, #F0FFF0, #F8F8FF, #F0F8FF, #FFFAF0, #E6E6FA, #B0C4DE, #FFEFD5, #F4A460, #FFF8DC, #FF69B4, #C71585, #9400D3, #4B0082, #8A2BE2, #4B0082, #483D8B, #4169E1, #0000CD, #87CEFA, #1E90FF, #6495ED, #00FFFF, #008080, #20B2AA, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    height: 100vh;
 }
 
 p {
