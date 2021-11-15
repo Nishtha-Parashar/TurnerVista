@@ -98,7 +98,7 @@
         justify-content: center;
     }
     
-    .righttSide {
+    .rightSide {
         position: fixed;
         flex-basis: 17%;
         position: sticky;

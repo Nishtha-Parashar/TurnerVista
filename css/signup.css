@@ -245,6 +245,10 @@ a:visited {
     border-bottom-left-radius: 0;
 }
 
+.nav-link {
+    color: white
+}
+
 
 /* a:link,
 a:visited {
