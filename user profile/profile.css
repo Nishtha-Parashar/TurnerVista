@@ -1,0 +1,229 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+.mainContent{
+    background-color:whitesmoke;
+}
+.logo {
+    height: 100px;
+    width: 100px;
+    border: cornsilk;
+    padding: 0 38px;
+    border: black;
+    border-width: 3px;
+    border-radius: 5px;
+}
+
+.heading {
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    padding: 3px;
+}
+
+.SearchBox {
+    justify-content: center;
+    background: white;
+    width: 550px;
+    height: 40px;
+    border-radius: 20px;
+    align-items: center;
+    display: flex;
+    margin-left: 200px;
+}
+
+.SearchBox input {
+    width: 100%;
+    background: transparent;
+    outline: none;
+    padding: 10px;
+    border: 0;
+}
+/* .searchbox{
+height: 20px;
+width:400px;
+border-radius: 20px;
+border:none;
+justify-content: center;
+padding: 10px;
+
+
+} */
+
+h1 {
+    font-family: Times New Roman (serif);
+}
+
+.message {
+    position: relative;
+    align-items: center;
+    right: -300px;
+}
+
+.not {
+    position: relative;
+    align-items: center;
+    right: -175px;
+}
+
+.set {
+    position: relative;
+    align-items: center;
+    right: -310px;
+}
+
+.logout {
+    position: relative;
+    align-items: center;
+    right: -350px;
+}
+.CoverProfile{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-basis: 40%;
+    border-bottom: 1px solid#ccc;
+    border: white;
+}
+.CoverProfile img{
+    padding: 20px;
+    height: 370px;
+    width: 70%;
+    margin-left: 0%;
+    border-radius: 50px;
+    position: relative;
+
+}
+.profilePic img{
+padding: 10px;
+    height: 200px;
+    width: 200px;
+    margin-left: 19%;
+    border-radius: 50%;
+    border-image:20px;
+    border-color: black;
+
+}
+.profilePic{
+    background-color: #fff;
+    width: 70%;
+    margin-left:15% ;
+}
+.profilePic h3{
+    margin-left: 21%;
+    
+}
+.about{
+    margin-left: 43%;
+    margin-top: -18%;
+
+}
+.about li{
+    padding: 8px;
+}
+/* .postbtn{
+    padding: 15px;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0px 4px 20px -5px black;
+    margin-left: 77%;
+    width: 90px;
+    margin-top: 5px;
+    
+}
+.postbtn:hover {
+    cursor: pointer;
+} */
+/* .post-Container {
+    width: 68%;
+    height: 100px;
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid#ccc;
+    background: transparent;
+    background-color:white ;
+    padding: 20px;
+    margin-left: 15%;
+    margin-top: 3%;
+ */
+/* } */
+.post-Container {
+    width: 68%;
+    border: 0;
+    outline: 0;
+    
+    border-bottom: 1px solid#ccc;
+    background:transparent;
+    padding: 20px;
+    margin-left: 15%;
+    margin-bottom: 5%;
+
+}
+
+.postbtn {
+    height: 34px;
+    width: 100px;
+    
+    border-radius: 20px;
+    background-color: rgb(180, 83, 236);
+    border: none;
+    box-shadow: 0px 4px 20px -5px black;
+    color: white;
+   
+}
+
+.postbtn:hover {
+    cursor: pointer;
+}
+
+.post {
+    width: 95%;
+    background: rgb(255, 255, 255);
+    border-radius: 6px;
+    padding: 20px;
+    align-items: center;
+}
+.UserProfile{
+    background-color: white;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 3%;
+}
+.UserProfile img{
+    border-radius: 50%;
+    padding: 20px;
+}
+.ImagePost {
+    width: 68%;
+    background: rgb(255, 255, 255);
+    border-radius: 6px;
+    padding: 20px;
+    height: 600px;
+    margin-top: 30px;
+    margin-left: 15%;
+}
+
+.ImagePost img {
+    width: 70%;
+    height: 90%;
+    align-items: center;
+    margin-left: 15%;
+}
+
+.like {
+    padding: 0 20px;
+    background-color: rgb(255, 255, 255);
+    width: 68%;
+    margin-left: 15%;
+    /* border-top: 1px solid#ccc;
+border-bottom: 1px solid#ccc; */
+}
+
+.like img {
+    padding: 0px 130px;
+}
